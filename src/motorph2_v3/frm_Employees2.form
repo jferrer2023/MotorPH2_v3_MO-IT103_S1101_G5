@@ -25,7 +25,7 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" alignment="0" pref="1116" max="32767" attributes="0"/>
+          <Component id="jPanel1" alignment="0" pref="1133" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -59,150 +59,229 @@
                   </Group>
                   <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="btn_AddEmp" min="-2" pref="95" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="btn_EditEmp" min="-2" pref="95" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="btn_SaveEmp" min="-2" pref="95" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="btn_DelEmp" min="-2" pref="95" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="btn_Back" min="-2" pref="96" max="-2" attributes="0"/>
-                      </Group>
                       <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel20" max="32767" attributes="0"/>
-                              <Component id="jLabel16" alignment="0" pref="123" max="32767" attributes="0"/>
-                              <Component id="jLabel17" max="32767" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="txt_RiceAllow" min="-2" pref="322" max="-2" attributes="0"/>
-                              <Component id="txt_PhoneAllow" alignment="0" min="-2" pref="323" max="-2" attributes="0"/>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                      <Component id="txt_Basic" pref="322" max="32767" attributes="0"/>
-                                      <Component id="txt_Position" alignment="1" max="32767" attributes="0"/>
-                                      <Component id="txt_Status" alignment="1" max="32767" attributes="0"/>
-                                      <Component id="txt_Pagibig" alignment="1" max="32767" attributes="0"/>
-                                      <Component id="txt_TIN" alignment="1" max="32767" attributes="0"/>
-                                      <Component id="txt_Philhealth" alignment="1" max="32767" attributes="0"/>
-                                      <Component id="txt_SSS" alignment="1" max="32767" attributes="0"/>
-                                      <Component id="txt_Phone" alignment="1" max="32767" attributes="0"/>
-                                      <Component id="txt_Birthdate" alignment="1" max="32767" attributes="0"/>
-                                      <Component id="txt_Firstname" alignment="1" max="32767" attributes="0"/>
-                                      <Component id="txt_Lastname" alignment="1" max="32767" attributes="0"/>
-                                      <Component id="txt_EmpNo" alignment="1" max="32767" attributes="0"/>
-                                      <Component id="txt_Address" alignment="1" max="32767" attributes="0"/>
-                                      <Component id="txt_Supervisor" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel20" max="32767" attributes="0"/>
+                                      <Component id="jLabel16" alignment="0" pref="123" max="32767" attributes="0"/>
+                                      <Component id="jLabel17" max="32767" attributes="0"/>
                                   </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" attributes="0">
-                                          <EmptySpace pref="16" max="32767" attributes="0"/>
+                                      <Component id="txt_RiceAllow" min="-2" pref="322" max="-2" attributes="0"/>
+                                      <Component id="txt_PhoneAllow" alignment="0" min="-2" pref="323" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Component id="txt_Basic" pref="322" max="32767" attributes="0"/>
+                                              <Component id="txt_Position" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="txt_Status" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="txt_Pagibig" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="txt_TIN" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="txt_Philhealth" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="txt_SSS" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="txt_Phone" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="txt_Birthdate" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="txt_Firstname" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="txt_Lastname" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="txt_EmpNo" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="txt_Address" alignment="1" max="32767" attributes="0"/>
+                                              <Component id="txt_Supervisor" alignment="1" max="32767" attributes="0"/>
+                                          </Group>
                                           <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="jLabel25" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="jLabel26" alignment="1" min="-2" max="-2" attributes="0"/>
-                                                      <Group type="102" alignment="0" attributes="0">
-                                                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
-                                                          <Group type="103" groupAlignment="0" attributes="0">
-                                                              <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
-                                                          </Group>
-                                                      </Group>
-                                                  </Group>
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Group type="102" attributes="0">
-                                                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                                                          <Group type="103" groupAlignment="1" attributes="0">
-                                                              <Component id="txt_SLCount" min="-2" pref="65" max="-2" attributes="0"/>
-                                                              <Component id="txt_VLCount" min="-2" pref="65" max="-2" attributes="0"/>
-                                                          </Group>
-                                                      </Group>
-                                                      <Group type="102" alignment="1" attributes="0">
-                                                          <EmptySpace max="-2" attributes="0"/>
-                                                          <Group type="103" groupAlignment="0" attributes="0">
-                                                              <Component id="txt_SLBal" alignment="1" min="-2" pref="65" max="-2" attributes="0"/>
-                                                              <Component id="txt_VLBal" alignment="1" min="-2" pref="65" max="-2" attributes="0"/>
-                                                          </Group>
-                                                      </Group>
-                                                  </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
+                                                  <Component id="jLabel49" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                               </Group>
                                               <Group type="102" alignment="1" attributes="0">
-                                                  <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
                                                   <EmptySpace max="32767" attributes="0"/>
-                                                  <Component id="txt_SLUsed" min="-2" pref="65" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="jLabel28" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel27" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel25" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel26" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                                                  <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                                                  <Group type="102" attributes="0">
+                                                                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                                                      <Group type="103" groupAlignment="1" attributes="0">
+                                                                          <Component id="txt_SLCount" min="-2" pref="65" max="-2" attributes="0"/>
+                                                                          <Component id="txt_VLCount" min="-2" pref="65" max="-2" attributes="0"/>
+                                                                      </Group>
+                                                                  </Group>
+                                                                  <Group type="102" alignment="1" attributes="0">
+                                                                      <EmptySpace max="-2" attributes="0"/>
+                                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                                          <Component id="txt_SLBal" alignment="1" min="-2" pref="65" max="-2" attributes="0"/>
+                                                                          <Component id="txt_VLBal" alignment="1" min="-2" pref="65" max="-2" attributes="0"/>
+                                                                      </Group>
+                                                                  </Group>
+                                                              </Group>
+                                                              <Group type="102" alignment="1" attributes="0">
+                                                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                      <Component id="txt_SLUsed" alignment="1" min="-2" pref="65" max="-2" attributes="0"/>
+                                                                      <Component id="txt_VLUsed" alignment="1" min="-2" pref="65" max="-2" attributes="0"/>
+                                                                  </Group>
+                                                              </Group>
+                                                          </Group>
+                                                      </Group>
+                                                      <Component id="jLabel41" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jLabel42" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jLabel40" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jLabel43" alignment="1" min="-2" pref="85" max="-2" attributes="0"/>
+                                                  </Group>
                                               </Group>
                                           </Group>
                                       </Group>
-                                      <Group type="102" attributes="0">
-                                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="32767" attributes="0"/>
-                                          <Component id="txt_VLUsed" min="-2" pref="65" max="-2" attributes="0"/>
-                                      </Group>
                                   </Group>
                               </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="jLabel19" max="32767" attributes="0"/>
+                                      <Component id="jLabel18" pref="123" max="32767" attributes="0"/>
+                                      <Component id="jLabel21" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="txt_GrossSemi" pref="323" max="32767" attributes="0"/>
+                                      <Component id="txt_HourlyRate" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="txt_ClothingAllow" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="btn_AddEmp" min="-2" pref="89" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="btn_EditEmp" min="-2" pref="87" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="btn_SaveEmp" min="-2" pref="87" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="btn_DelEmp" min="-2" pref="87" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="btn_Back" min="-2" pref="87" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jcal_DateFrom" min="-2" pref="104" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabel37" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel34" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txt_ActualWorkHrs" min="-2" pref="60" max="-2" attributes="0"/>
+                              <Component id="txt_PayableHrs" min="-2" pref="60" max="-2" attributes="0"/>
+                              <Component id="txt_TardinessHrs" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                              <Component id="jLabel19" max="32767" attributes="0"/>
-                              <Component id="jLabel18" pref="123" max="32767" attributes="0"/>
-                              <Component id="jLabel21" max="32767" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="txt_GrossSemi" pref="323" max="32767" attributes="0"/>
-                              <Component id="txt_HourlyRate" alignment="1" max="32767" attributes="0"/>
-                              <Component id="txt_ClothingAllow" alignment="0" max="32767" attributes="0"/>
-                          </Group>
+                          <EmptySpace min="-2" pref="143" max="-2" attributes="0"/>
+                          <Component id="btn_Compute" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="btn_Generate" min="-2" max="-2" attributes="0"/>
                       </Group>
-                  </Group>
-                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jLabel2" alignment="1" min="-2" pref="378" max="-2" attributes="0"/>
-                      <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                          <Component id="jLabel2" min="-2" pref="378" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jLabel38" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel36" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel32" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txt_MonthlyGross" min="-2" pref="59" max="-2" attributes="0"/>
+                                          <Component id="txt_MonthlyAllow" min="-2" pref="59" max="-2" attributes="0"/>
+                                          <Component id="txt_Earnings" min="-2" pref="59" max="-2" attributes="0"/>
+                                          <Component id="jLabel46" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="173" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="txt_EEPagibig" min="-2" pref="59" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jLabel47" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txt_ERPhilhealth" min="-2" pref="59" max="-2" attributes="0"/>
+                                          <Component id="txt_ERPagibig" min="-2" pref="59" max="-2" attributes="0"/>
+                                          <Component id="txt_ERSSS" alignment="0" min="-2" pref="59" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
-                          </Group>
-                          <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
-                                  <Component id="dropdown_PayMonth" min="-2" pref="163" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="btn_Compute" min="-2" pref="101" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="txt_EEDeduct" min="-2" pref="59" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="jLabel44" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="txt_ERDeduct" min="-2" pref="59" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel35" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="txt_Netpay" min="-2" pref="111" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="txt_EEPhilhealth" alignment="0" min="-2" pref="59" max="-2" attributes="0"/>
+                                      <Component id="txt_TardinessAmount" alignment="0" min="-2" pref="59" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="txt_EESSS" min="-2" pref="59" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                                          <Component id="jLabel45" min="-2" pref="32" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="txt_Netpay" min="-2" pref="147" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                              <Component id="jLabel39" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel31" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jcal_DateTo" min="-2" pref="102" max="-2" attributes="0"/>
                       </Group>
                   </Group>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -211,32 +290,41 @@
               <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="btn_AddEmp" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="btn_EditEmp" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="btn_SaveEmp" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="btn_DelEmp" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="btn_Back" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btn_Compute" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="btn_Generate" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="btn_Compute" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="dropdown_PayMonth" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel22" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="btn_AddEmp" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btn_EditEmp" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btn_SaveEmp" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btn_DelEmp" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btn_Back" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel22" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Component id="jcal_DateFrom" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                          <Component id="jcal_DateTo" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel31" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
+                      <Group type="102" attributes="0">
                           <Component id="btn_Employees" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
                           <Component id="jPanel2" min="-2" pref="520" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="1" attributes="0">
@@ -244,16 +332,23 @@
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jLabel1" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
                                       <Component id="txt_EmpNo" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
-                                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="txt_SLCount" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txt_PayableHrs" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel37" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="txt_Lastname" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txt_VLCount" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel26" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="txt_Lastname" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txt_VLCount" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel26" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel34" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txt_ActualWorkHrs" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
@@ -261,12 +356,15 @@
                                       <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="txt_SLUsed" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel27" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel35" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txt_TardinessHrs" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="txt_Birthdate" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel28" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="txt_VLUsed" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
@@ -277,6 +375,8 @@
                               <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel29" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="txt_SLBal" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel36" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_MonthlyGross" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -284,6 +384,8 @@
                               <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel30" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="txt_VLBal" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel38" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_MonthlyAllow" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
@@ -291,10 +393,71 @@
                                   <Component id="txt_SSS" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="jLabel23" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_Earnings" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel39" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel40" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel45" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txt_ERSSS" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                                          <Component id="txt_EESSS" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel46" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txt_ERPhilhealth" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="txt_EEPhilhealth" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                                          <Component id="jLabel41" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel42" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txt_EEPagibig" min="-2" pref="22" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel47" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txt_ERPagibig" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel43" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txt_TardinessAmount" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel49" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel44" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txt_ERDeduct" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                                          <Component id="txt_EEDeduct" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txt_Netpay" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" min="-2" pref="50" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="txt_Philhealth" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -355,15 +518,6 @@
                                       <Component id="txt_HourlyRate" min="-2" pref="22" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="32767" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="txt_Netpay" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jLabel2" min="-2" pref="75" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -793,27 +947,8 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel22">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Payroll Month:"/>
+            <Property name="text" type="java.lang.String" value="Payroll From:"/>
           </Properties>
-        </Component>
-        <Component class="javax.swing.JComboBox" name="dropdown_PayMonth">
-          <Properties>
-            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="4">
-                <StringItem index="0" value="Item 1"/>
-                <StringItem index="1" value="Item 2"/>
-                <StringItem index="2" value="Item 3"/>
-                <StringItem index="3" value="Item 4"/>
-              </StringArray>
-            </Property>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dropdown_PayMonthActionPerformed"/>
-          </Events>
-          <AuxValues>
-            <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="frm_Employees2_jComboBox1"/>
-            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
-          </AuxValues>
         </Component>
         <Component class="javax.swing.JButton" name="btn_Compute">
           <Properties>
@@ -852,7 +987,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="12" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="DEDUCTIONS:"/>
+            <Property name="text" type="java.lang.String" value="EE DEDUCTIONS:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel24">
@@ -923,6 +1058,146 @@
         <Component class="javax.swing.JTextField" name="txt_VLBal">
           <Properties>
             <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="jcal_DateFrom">
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="jcal_DateTo">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel31">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="To:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel32">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Total Earnings:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_PayableHrs">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="174.64"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel34">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Actual Worked Hrs:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_ActualWorkHrs">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel35">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tardiness/Abs.: (Hrs):"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_TardinessHrs">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel36">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Monthly Gross:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel37">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Payable Hrs:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel38">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Monthly Allowance:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_MonthlyGross">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_MonthlyAllow">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_Earnings">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel39">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="ER DEDUCTIONS:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel40">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SSS:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel41">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Philhealth:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel42">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pagibig:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel43">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tardiness/Abs.:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel44">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Total EE Deductions:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel45">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SSS:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel46">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Philhealth:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel47">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pagibig:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel49">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Total ER Deductions:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_EESSS">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_EEPhilhealth">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_EEPagibig">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_TardinessAmount">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_ERDeduct">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_ERSSS">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_ERPhilhealth">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_ERPagibig">
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_EEDeduct">
+        </Component>
+        <Component class="javax.swing.JButton" name="btn_Generate">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="GENERATE"/>
           </Properties>
         </Component>
       </SubComponents>

@@ -267,49 +267,52 @@ public class frm_Employees extends javax.swing.JFrame {
         String status = tbl_Emp.getValueAt(selectedRowIndex, 10).toString();
         String position = tbl_Emp.getValueAt(selectedRowIndex, 11).toString();
         String supervisor = tbl_Emp.getValueAt(selectedRowIndex, 12).toString();
-        String basicSalary = tbl_Emp.getValueAt(selectedRowIndex, 13).toString();
-        String riceSubsidyAllow = tbl_Emp.getValueAt(selectedRowIndex, 14).toString();
-        String phoneAllow = tbl_Emp.getValueAt(selectedRowIndex, 15).toString();
-        String clothingAllow = tbl_Emp.getValueAt(selectedRowIndex, 16).toString();
-        String grossSemiAllow = tbl_Emp.getValueAt(selectedRowIndex, 17).toString();
-        String hourlyRate = tbl_Emp.getValueAt(selectedRowIndex, 18).toString();
         
-        double SLCount = 0;
-        double VLCount = 0;
-        double SLUsed = 0;
-        double VLUsed = 0;
-        double SLBal = 0;
-        double VLBal = 0;
-        // Check if the SLCount and VLCount columns exist
-        if (tbl_Emp.getColumnCount() > 19) {
-            SLCount = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 19).toString());
-        }
-        if (tbl_Emp.getColumnCount() > 20) {
-            VLCount = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 20).toString());
-        }
-        if (tbl_Emp.getColumnCount() > 21) {
-            SLUsed = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 21).toString());
-        }
-        if (tbl_Emp.getColumnCount() > 22) {
-            VLUsed = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 22).toString());
-        }
-        if (tbl_Emp.getColumnCount() > 23) {
-            SLBal = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 23).toString());
-        }
-        if (tbl_Emp.getColumnCount() > 24) {
-            VLBal = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 24).toString());
-        }
-        
+        // Convert string values to double
+            double basicSalary = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 13).toString());
+            double riceSubsidyAllow = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 14).toString());
+            double phoneAllow = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 15).toString());
+            double clothingAllow = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 16).toString());
+            double grossSemiAllow = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 17).toString());
+            double hourlyRate = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 18).toString());
 
-        // Pass all the values to frm_Employees2
-        frm_Employees2 employees2 = new frm_Employees2(empNo, lastname, firstname, birthdate, address, phone, sss, philhealth, tin, pagibig, status, position, supervisor, basicSalary, riceSubsidyAllow, phoneAllow, clothingAllow, grossSemiAllow, hourlyRate, SLCount, VLCount, SLUsed, VLUsed, SLBal, VLBal);
-        employees2.setVisible(true);
-        
-        this.dispose();
-    } else {
-        JOptionPane.showMessageDialog(this, "Please select an employee to view.", "No Employee Selected", JOptionPane.INFORMATION_MESSAGE);
-    }
-    
+            double SLCount = 0;
+            double VLCount = 0;
+            double SLUsed = 0;
+            double VLUsed = 0;
+            double SLBal = 0;
+            double VLBal = 0;
+
+            // Check if the SLCount and VLCount columns exist
+            if (tbl_Emp.getColumnCount() > 19) {
+                SLCount = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 19).toString());
+            }
+            if (tbl_Emp.getColumnCount() > 20) {
+                VLCount = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 20).toString());
+            }
+            if (tbl_Emp.getColumnCount() > 21) {
+                SLUsed = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 21).toString());
+            }
+            if (tbl_Emp.getColumnCount() > 22) {
+                VLUsed = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 22).toString());
+            }
+            if (tbl_Emp.getColumnCount() > 23) {
+                SLBal = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 23).toString());
+            }
+            if (tbl_Emp.getColumnCount() > 24) {
+                VLBal = Double.parseDouble(tbl_Emp.getValueAt(selectedRowIndex, 24).toString());
+            }
+
+            // Pass all the values to frm_Employees2
+            frm_Employees2 employees2 = new frm_Employees2(empNo, lastname, firstname, birthdate, address, phone, sss, philhealth, tin, pagibig, status, position, supervisor, basicSalary, riceSubsidyAllow, phoneAllow, clothingAllow, grossSemiAllow, hourlyRate, SLCount, VLCount, SLUsed, VLUsed, SLBal, VLBal);
+            employees2.setVisible(true);
+            
+            this.dispose();
+        } else {
+            JOptionPane.showMessageDialog(this, "Please select an employee to view.", "No Employee Selected", JOptionPane.INFORMATION_MESSAGE);
+        }
+                       
+     
    
 
     }//GEN-LAST:event_btn_ViewEmpActionPerformed
