@@ -16,7 +16,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,09-Jan-22,09-Jan-22,8:00,17:00,8,1,Work,Closed-On Time
 10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,09-Jan-22,09-Jan-22,8:28,17:00,7.53,1,Work,Closed-Late
 10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,09-Jan-22,09-Jan-22,8:00,17:00,8,1,Work,Closed-On Time
-10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,09-Jan-2022,09-Jan-2022,8:00,17:00,8,1,Work,Closed-On Time
+10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,09-Jan-22,09-Jan-22,8:00,17:00,8,1,Work,Closed-On Time
 10019,Tolentino,Jacklyn,Probationary,Account Rank and File,De Leon Selena,09-Jan-22,09-Jan-22,8:00,17:00,8,1,Work,Closed-On Time
 10020,Gutierrez,Percival,Probationary,Account Rank and File,De Leon Selena,09-Jan-22,09-Jan-22,8:00,17:00,8,1,Work,Closed-On Time
 10021,Manalaysay,Garfield,Probationary,Account Rank and File,De Leon Selena,09-Jan-22,09-Jan-22,8:11,17:00,7.82,1,Work,Closed-Late
@@ -82,7 +82,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,09-Jun-22,09-Jun-22,8:00,17:00,8,1,Work,Closed-On Time
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,09-Jun-22,09-Jun-22,8:00,17:00,8,1,Work,Closed-On Time
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,09-Jun-22,09-Jun-22,8:10,17:00,7.83,1,Work,Closed-On Time
-10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,09-Jun-22,09-Jun-22,0:00,0:00,0,1,Work,Closed-On Time
+10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,09-Jun-22,09-Jun-22,0:00,0:00,0,1,Work,Closed
 10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,09-Jun-22,09-Jun-22,8:00,17:00,8,1,Work,Closed-On Time
 10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,09-Jun-22,09-Jun-22,8:00,17:00,8,1,Work,Closed-On Time
 10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,09-Jun-22,09-Jun-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -107,7 +107,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,09-Jul-22,09-Jul-22,8:00,17:00,8,1,Work,Closed-On Time
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,09-Jul-22,09-Jul-22,8:00,17:00,8,1,Work,Closed-On Time
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,09-Jul-22,09-Jul-22,8:00,17:00,8,1,Work,Closed-On Time
-10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,09-Jul-22,09-Jul-22,0:00,0:00,0,1,Work,Closed-On Time
+10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,09-Jul-22,09-Jul-22,0:00,0:00,0,1,Work,Closed
 10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,09-Jul-22,09-Jul-22,8:00,17:00,8,1,Work,Closed-On Time
 10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,09-Jul-22,09-Jul-22,8:00,17:00,8,1,Work,Closed-On Time
 10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,09-Jul-22,09-Jul-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -132,7 +132,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,09-Aug-22,09-Aug-22,8:00,17:00,8,1,Work,Closed-On Time
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,09-Aug-22,09-Aug-22,8:00,17:00,8,1,Work,Closed-On Time
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,09-Aug-22,09-Aug-22,8:00,17:00,8,1,Work,Closed-On Time
-10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,09-Aug-22,09-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
+10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,09-Aug-22,09-Aug-22,0:00,0:00,0,1,Work,Closed
 10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,09-Aug-22,09-Aug-22,8:00,17:00,8,1,Work,Closed-On Time
 10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,09-Aug-22,09-Aug-22,8:00,17:00,8,1,Work,Closed-On Time
 10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,09-Aug-22,09-Aug-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -157,7 +157,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,09-Sep-22,09-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,09-Sep-22,09-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,09-Sep-22,09-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
-10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,09-Sep-22,09-Sep-22,0:00,0:00,0,1,Work,Closed-On Time
+10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,09-Sep-22,09-Sep-22,0:00,0:00,0,1,Work,Closed
 10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,09-Sep-22,09-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,09-Sep-22,09-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,09-Sep-22,09-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -182,7 +182,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,09-Dec-22,09-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,09-Dec-22,09-Dec-22,8:27,17:00,7.55,1,Work,Closed-Late
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,09-Dec-22,09-Dec-22,8:01,17:00,7.98,1,Work,Closed-On Time
-10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,09-Dec-22,09-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
+10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,09-Dec-22,09-Dec-22,0:00,0:00,0,1,Work,Closed
 10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,09-Dec-22,09-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,09-Dec-22,09-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,09-Dec-22,09-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -215,7 +215,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10014,Bautista,Mark,Regular,Account Rank and File,Mata Christian,13-Sep-22,13-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,13-Sep-22,13-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,13-Sep-22,13-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
-10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,13-Sep-22,13-Sep-22,0:00,0:00,0,1,Work,Closed-On Time
+10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,13-Sep-22,13-Sep-22,0:00,0:00,0,1,Work,Closed
 10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,13-Sep-22,13-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10019,Tolentino,Jacklyn,Probationary,Account Rank and File,De Leon Selena,13-Sep-22,13-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10020,Gutierrez,Percival,Probationary,Account Rank and File,De Leon Selena,13-Sep-22,13-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -272,7 +272,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10021,Manalaysay,Garfield,Probationary,Account Rank and File,De Leon Selena,15-Sep-22,15-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10022,Villegas,Lizeth,Probationary,Account Rank and File,De Leon Selena,15-Sep-22,15-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10023,Ramos,Carol,Probationary,Account Rank and File,De Leon Selena,15-Sep-22,15-Sep-22,9:00,17:00,7,1,Work,Closed-Late
-10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,15-Sep-22,15-Sep-22,0:00,0:00,0,1,Work,Closed-On Time
+10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,15-Sep-22,15-Sep-22,0:00,0:00,0,1,Work,Closed
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,15-Sep-22,15-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10001,Crisostomo,Jose,#N/A,#N/A,#N/A,16-Sep-22,16-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10002,Mata,Christian,#N/A,#N/A,#N/A,16-Sep-22,16-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -315,7 +315,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10014,Bautista,Mark,Regular,Account Rank and File,Mata Christian,19-Sep-22,19-Sep-22,10:00,17:00,6,1,Work,Closed-Late
 10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,19-Sep-22,19-Sep-22,10:00,17:00,6,1,Work,Closed-Late
 10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,19-Sep-22,19-Sep-22,10:00,17:00,6,1,Work,Closed-Late
-10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,19-Sep-22,19-Sep-22,0:00,0:00,0,1,Work,Closed-On Time
+10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,19-Sep-22,19-Sep-22,0:00,0:00,0,1,Work,Closed
 10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,19-Sep-22,19-Sep-22,10:00,17:00,6,1,Work,Closed-Late
 10019,Tolentino,Jacklyn,Probationary,Account Rank and File,De Leon Selena,19-Sep-22,19-Sep-22,10:00,17:00,6,1,Work,Closed-Late
 10020,Gutierrez,Percival,Probationary,Account Rank and File,De Leon Selena,19-Sep-22,19-Sep-22,10:00,17:00,6,1,Work,Closed-Late
@@ -341,7 +341,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,20-Sep-22,20-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,20-Sep-22,20-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,20-Sep-22,20-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
-10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,20-Sep-22,20-Sep-22,0:00,0:00,0,1,Work,Closed-On Time
+10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,20-Sep-22,20-Sep-22,0:00,0:00,0,1,Work,Closed
 10019,Tolentino,Jacklyn,Probationary,Account Rank and File,De Leon Selena,20-Sep-22,20-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10020,Gutierrez,Percival,Probationary,Account Rank and File,De Leon Selena,20-Sep-22,20-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10021,Manalaysay,Garfield,Probationary,Account Rank and File,De Leon Selena,20-Sep-22,20-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -366,7 +366,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,21-Sep-22,21-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,21-Sep-22,21-Sep-22,8:28,17:00,7.53,1,Work,Closed-Late
 10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,21-Sep-22,21-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
-10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,21-Sep-22,21-Sep-22,0:00,0:00,0,1,Work,Closed-On Time
+10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,21-Sep-22,21-Sep-22,0:00,0:00,0,1,Work,Closed
 10019,Tolentino,Jacklyn,Probationary,Account Rank and File,De Leon Selena,21-Sep-22,21-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10020,Gutierrez,Percival,Probationary,Account Rank and File,De Leon Selena,21-Sep-22,21-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10021,Manalaysay,Garfield,Probationary,Account Rank and File,De Leon Selena,21-Sep-22,21-Sep-22,8:11,17:00,7.82,1,Work,Closed-Late
@@ -465,7 +465,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10014,Bautista,Mark,Regular,Account Rank and File,Mata Christian,27-Sep-22,27-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,27-Sep-22,27-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,27-Sep-22,27-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
-10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,27-Sep-22,27-Sep-22,0:00,0:00,0,1,Work,Closed-On Time
+10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,27-Sep-22,27-Sep-22,0:00,0:00,0,1,Work,Closed
 10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,27-Sep-22,27-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10019,Tolentino,Jacklyn,Probationary,Account Rank and File,De Leon Selena,27-Sep-22,27-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10020,Gutierrez,Percival,Probationary,Account Rank and File,De Leon Selena,27-Sep-22,27-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -607,7 +607,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,10-May-22,10-May-22,8:00,17:00,8,1,Work,Closed-On Time
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,10-May-22,10-May-22,8:00,17:00,8,1,Work,Closed-On Time
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,10-May-22,10-May-22,8:10,17:00,7.83,1,Work,Closed-On Time
-10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,10-May-22,10-May-22,0:00,0:00,0,1,Work,Closed-On Time
+10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,10-May-22,10-May-22,0:00,0:00,0,1,Work,Closed
 10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,10-May-22,10-May-22,8:00,17:00,8,1,Work,Closed-On Time
 10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,10-May-22,10-May-22,8:00,17:00,8,1,Work,Closed-On Time
 10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,10-May-22,10-May-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -662,7 +662,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,10-Jul-22,10-Jul-22,8:00,17:00,8,1,Work,Closed-On Time
 10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,10-Jul-22,10-Jul-22,8:00,17:00,8,1,Work,Closed-On Time
 10013,Romualdez,Fredrick,Regular,Account Manager,Lim Antonio,10-Jul-22,10-Jul-22,10:00,17:00,6,1,Work,Closed-Late
-10014,Bautista,Mark,Regular,Account Rank and File,Mata Christian,10-Jul-22,10-Jul-22,0:00,0:00,0,1,Work,Closed-On Time
+10014,Bautista,Mark,Regular,Account Rank and File,Mata Christian,10-Jul-22,10-Jul-22,0:00,0:00,0,1,Work,Closed
 10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,10-Jul-22,10-Jul-22,10:00,17:00,6,1,Work,Closed-Late
 10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,10-Jul-22,10-Jul-22,10:00,17:00,6,1,Work,Closed-Late
 10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,10-Jul-22,10-Jul-22,10:00,17:00,6,1,Work,Closed-Late
@@ -708,7 +708,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,10-Nov-22,10-Nov-22,8:27,17:00,7.55,1,Work,Closed-Late
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,10-Nov-22,10-Nov-22,8:01,17:00,7.98,1,Work,Closed-On Time
 10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,10-Nov-22,10-Nov-22,8:05,17:00,7.92,1,Work,Closed-On Time
-10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,10-Nov-22,10-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
+10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,10-Nov-22,10-Nov-22,0:00,0:00,0,1,Work,Closed
 10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,10-Nov-22,10-Nov-22,8:00,17:00,8,1,Work,Closed-On Time
 10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,10-Nov-22,10-Nov-22,8:00,17:00,8,1,Work,Closed-On Time
 10013,Romualdez,Fredrick,Regular,Account Manager,Lim Antonio,10-Nov-22,10-Nov-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -839,7 +839,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10013,Romualdez,Fredrick,Regular,Account Manager,Lim Antonio,18-Oct-22,18-Oct-22,10:00,17:00,6,1,Work,Closed-Late
 10014,Bautista,Mark,Regular,Account Rank and File,Mata Christian,18-Oct-22,18-Oct-22,10:00,17:00,6,1,Work,Closed-Late
 10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,18-Oct-22,18-Oct-22,10:00,17:00,6,1,Work,Closed-Late
-10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,18-Oct-22,18-Oct-22,0:00,0:00,fixed,1,Work,Closed-On Time
+10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,18-Oct-22,18-Oct-22,0:00,0:00,fixed,1,Work,Closed
 10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,18-Oct-22,18-Oct-22,10:00,17:00,6,1,Work,Closed-Late
 10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,18-Oct-22,18-Oct-22,10:00,17:00,6,1,Work,Closed-Late
 10019,Tolentino,Jacklyn,Probationary,Account Rank and File,De Leon Selena,18-Oct-22,18-Oct-22,10:00,17:00,6,1,Work,Closed-Late
@@ -908,7 +908,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,21-Oct-22,21-Oct-22,8:00,17:00,8,1,Work,Closed-On Time
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,21-Oct-22,21-Oct-22,8:00,17:00,8,1,Work,Closed-On Time
 10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,21-Oct-22,21-Oct-22,8:00,17:00,8,1,Work,Closed-On Time
-10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,21-Oct-22,21-Oct-22,0:00,0:00,0,1,Work,Closed-On Time
+10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,21-Oct-22,21-Oct-22,0:00,0:00,0,1,Work,Closed
 10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,21-Oct-22,21-Oct-22,8:00,17:00,8,1,Work,Closed-On Time
 10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,21-Oct-22,21-Oct-22,8:00,17:00,8,1,Work,Closed-On Time
 10013,Romualdez,Fredrick,Regular,Account Manager,Lim Antonio,21-Oct-22,21-Oct-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -1016,7 +1016,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,27-Oct-22,27-Oct-22,10:00,17:00,6,1,Work,Closed-Late
 10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,27-Oct-22,27-Oct-22,10:00,17:00,6,1,Work,Closed-Late
 10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,27-Oct-22,27-Oct-22,10:00,17:00,6,1,Work,Closed-Late
-10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,27-Oct-22,27-Oct-22,0:00,0:00,0,1,Work,Closed-On Time
+10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,27-Oct-22,27-Oct-22,0:00,0:00,0,1,Work,Closed
 10019,Tolentino,Jacklyn,Probationary,Account Rank and File,De Leon Selena,27-Oct-22,27-Oct-22,10:00,17:00,6,1,Work,Closed-Late
 10020,Gutierrez,Percival,Probationary,Account Rank and File,De Leon Selena,27-Oct-22,27-Oct-22,10:00,17:00,6,1,Work,Closed-Late
 10021,Manalaysay,Garfield,Probationary,Account Rank and File,De Leon Selena,27-Oct-22,27-Oct-22,10:00,17:00,6,1,Work,Closed-Late
@@ -1074,31 +1074,31 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10023,Ramos,Carol,Probationary,Account Rank and File,De Leon Selena,31-Oct-22,31-Oct-22,8:00,17:00,8,1,Work,Closed-On Time
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,31-Oct-22,31-Oct-22,8:21,17:00,7.65,1,Work,Closed-Late
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,31-Oct-22,31-Oct-22,8:00,17:00,8,1,Work,Closed-On Time
-10001,Crisostomo,Jose,#N/A,#N/A,#N/A,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10002,Mata,Christian,#N/A,#N/A,#N/A,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10013,Romualdez,Fredrick,Regular,Account Manager,Lim Antonio,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10014,Bautista,Mark,Regular,Account Rank and File,Mata Christian,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10019,Tolentino,Jacklyn,Probationary,Account Rank and File,De Leon Selena,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10020,Gutierrez,Percival,Probationary,Account Rank and File,De Leon Selena,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10021,Manalaysay,Garfield,Probationary,Account Rank and File,De Leon Selena,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10022,Villegas,Lizeth,Probationary,Account Rank and File,De Leon Selena,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10023,Ramos,Carol,Probationary,Account Rank and File,De Leon Selena,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
-10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed-On Time
+10001,Crisostomo,Jose,#N/A,#N/A,#N/A,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10002,Mata,Christian,#N/A,#N/A,#N/A,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10013,Romualdez,Fredrick,Regular,Account Manager,Lim Antonio,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10014,Bautista,Mark,Regular,Account Rank and File,Mata Christian,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10019,Tolentino,Jacklyn,Probationary,Account Rank and File,De Leon Selena,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10020,Gutierrez,Percival,Probationary,Account Rank and File,De Leon Selena,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10021,Manalaysay,Garfield,Probationary,Account Rank and File,De Leon Selena,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10022,Villegas,Lizeth,Probationary,Account Rank and File,De Leon Selena,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10023,Ramos,Carol,Probationary,Account Rank and File,De Leon Selena,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
+10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,11-Jan-22,11-Jan-22,0:00,0:00,0,1,Work,Closed
 10001,Crisostomo,Jose,#N/A,#N/A,#N/A,11-Feb-22,11-Feb-22,8:00,17:00,8,1,Work,Closed-On Time
 10002,Mata,Christian,#N/A,#N/A,#N/A,11-Feb-22,11-Feb-22,8:00,17:00,8,1,Work,Closed-On Time
 10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,11-Feb-22,11-Feb-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -1171,7 +1171,7 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10020,Gutierrez,Percival,Probationary,Account Rank and File,De Leon Selena,11-Apr-22,11-Apr-22,8:00,17:00,8,1,Work,Closed-On Time
 10021,Manalaysay,Garfield,Probationary,Account Rank and File,De Leon Selena,11-Apr-22,11-Apr-22,8:00,17:00,8,1,Work,Closed-On Time
 10022,Villegas,Lizeth,Probationary,Account Rank and File,De Leon Selena,11-Apr-22,11-Apr-22,8:00,17:00,8,1,Work,Closed-On Time
-10023,Ramos,Carol,Probationary,Account Rank and File,De Leon Selena,11-Apr-22,11-Apr-22,0:00,0:00,0,1,Work,Closed-On Time
+10023,Ramos,Carol,Probationary,Account Rank and File,De Leon Selena,11-Apr-22,11-Apr-22,0:00,0:00,0,1,Work,Closed
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,11-Apr-22,11-Apr-22,8:00,17:00,8,1,Work,Closed-On Time
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,11-Apr-22,11-Apr-22,8:00,17:00,8,1,Work,Closed-On Time
 10001,Crisostomo,Jose,#N/A,#N/A,#N/A,11-Jul-22,11-Jul-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -1599,31 +1599,31 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10023,Ramos,Carol,Probationary,Account Rank and File,De Leon Selena,29-Nov-22,29-Nov-22,8:00,17:00,8,1,Work,Closed-On Time
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,29-Nov-22,29-Nov-22,8:21,17:00,7.65,1,Work,Closed-Late
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,29-Nov-22,29-Nov-22,8:00,17:00,8,1,Work,Closed-On Time
-10001,Crisostomo,Jose,#N/A,#N/A,#N/A,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10002,Mata,Christian,#N/A,#N/A,#N/A,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,30-Nov-22,30-Nov-22,0:00,0:00,fixed,1,Work,Closed-On Time
-10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,30-Nov-22,30-Nov-22,0:00,0:00,fixed,1,Work,Closed-On Time
-10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,30-Nov-22,30-Nov-22,0:00,0:00,fixed,1,Work,Closed-On Time
-10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10013,Romualdez,Fredrick,Regular,Account Manager,Lim Antonio,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10014,Bautista,Mark,Regular,Account Rank and File,Mata Christian,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10019,Tolentino,Jacklyn,Probationary,Account Rank and File,De Leon Selena,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10020,Gutierrez,Percival,Probationary,Account Rank and File,De Leon Selena,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10021,Manalaysay,Garfield,Probationary,Account Rank and File,De Leon Selena,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10022,Villegas,Lizeth,Probationary,Account Rank and File,De Leon Selena,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10023,Ramos,Carol,Probationary,Account Rank and File,De Leon Selena,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
-10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed-On Time
+10001,Crisostomo,Jose,#N/A,#N/A,#N/A,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10002,Mata,Christian,#N/A,#N/A,#N/A,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,30-Nov-22,30-Nov-22,0:00,0:00,fixed,1,Work,Closed
+10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,30-Nov-22,30-Nov-22,0:00,0:00,fixed,1,Work,Closed
+10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,30-Nov-22,30-Nov-22,0:00,0:00,fixed,1,Work,Closed
+10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10013,Romualdez,Fredrick,Regular,Account Manager,Lim Antonio,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10014,Bautista,Mark,Regular,Account Rank and File,Mata Christian,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10019,Tolentino,Jacklyn,Probationary,Account Rank and File,De Leon Selena,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10020,Gutierrez,Percival,Probationary,Account Rank and File,De Leon Selena,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10021,Manalaysay,Garfield,Probationary,Account Rank and File,De Leon Selena,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10022,Villegas,Lizeth,Probationary,Account Rank and File,De Leon Selena,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10023,Ramos,Carol,Probationary,Account Rank and File,De Leon Selena,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
+10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,30-Nov-22,30-Nov-22,0:00,0:00,0,1,Work,Closed
 10001,Crisostomo,Jose,#N/A,#N/A,#N/A,12-Jan-22,12-Jan-22,8:00,17:00,8,1,Work,Closed-On Time
 10002,Mata,Christian,#N/A,#N/A,#N/A,12-Jan-22,12-Jan-22,8:00,17:00,8,1,Work,Closed-On Time
 10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,12-Jan-22,12-Jan-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -1749,31 +1749,31 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10023,Ramos,Carol,Probationary,Account Rank and File,De Leon Selena,12-Jul-22,12-Jul-22,8:00,17:00,8,1,Work,Closed-On Time
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,12-Jul-22,12-Jul-22,8:00,17:00,8,1,Work,Closed-On Time
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,12-Jul-22,12-Jul-22,8:00,17:00,8,1,Work,Closed-On Time
-10001,Crisostomo,Jose,#N/A,#N/A,#N/A,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10002,Mata,Christian,#N/A,#N/A,#N/A,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10013,Romualdez,Fredrick,Regular,Account Manager,Lim Antonio,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10014,Bautista,Mark,Regular,Account Rank and File,Mata Christian,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10019,Tolentino,Jacklyn,Probationary,Account Rank and File,De Leon Selena,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10020,Gutierrez,Percival,Probationary,Account Rank and File,De Leon Selena,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10021,Manalaysay,Garfield,Probationary,Account Rank and File,De Leon Selena,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10022,Villegas,Lizeth,Probationary,Account Rank and File,De Leon Selena,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10023,Ramos,Carol,Probationary,Account Rank and File,De Leon Selena,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
-10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed-On Time
+10001,Crisostomo,Jose,#N/A,#N/A,#N/A,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10002,Mata,Christian,#N/A,#N/A,#N/A,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10013,Romualdez,Fredrick,Regular,Account Manager,Lim Antonio,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10014,Bautista,Mark,Regular,Account Rank and File,Mata Christian,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10019,Tolentino,Jacklyn,Probationary,Account Rank and File,De Leon Selena,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10020,Gutierrez,Percival,Probationary,Account Rank and File,De Leon Selena,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10021,Manalaysay,Garfield,Probationary,Account Rank and File,De Leon Selena,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10022,Villegas,Lizeth,Probationary,Account Rank and File,De Leon Selena,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10023,Ramos,Carol,Probationary,Account Rank and File,De Leon Selena,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
+10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,12-Aug-22,12-Aug-22,0:00,0:00,0,1,Work,Closed
 10001,Crisostomo,Jose,#N/A,#N/A,#N/A,12-Sep-22,12-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10002,Mata,Christian,#N/A,#N/A,#N/A,12-Sep-22,12-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
 10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,12-Sep-22,12-Sep-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -1875,11 +1875,11 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,14-Dec-22,14-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,14-Dec-22,14-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10001,Crisostomo,Jose,#N/A,#N/A,#N/A,15-Dec-22,15-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
-10002,Mata,Christian,#N/A,#N/A,#N/A,15-Dec-22,15-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,15-Dec-22,15-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,15-Dec-22,15-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,15-Dec-22,15-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,15-Dec-22,15-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
+10002,Mata,Christian,#N/A,#N/A,#N/A,15-Dec-22,15-Dec-22,0:00,0:00,0,1,Work,Closed
+10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,15-Dec-22,15-Dec-22,0:00,0:00,0,1,Work,Closed
+10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,15-Dec-22,15-Dec-22,0:00,0:00,0,1,Work,Closed
+10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,15-Dec-22,15-Dec-22,0:00,0:00,0,1,Work,Closed
+10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,15-Dec-22,15-Dec-22,0:00,0:00,0,1,Work,Closed
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,15-Dec-22,15-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,15-Dec-22,15-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,15-Dec-22,15-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -1900,11 +1900,11 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,15-Dec-22,15-Dec-22,10:00,17:00,6,1,Work,Closed-Late
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,15-Dec-22,15-Dec-22,10:00,17:00,6,1,Work,Closed-Late
 10001,Crisostomo,Jose,#N/A,#N/A,#N/A,16-Dec-22,16-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
-10002,Mata,Christian,#N/A,#N/A,#N/A,16-Dec-22,16-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,16-Dec-22,16-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,16-Dec-22,16-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,16-Dec-22,16-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,16-Dec-22,16-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
+10002,Mata,Christian,#N/A,#N/A,#N/A,16-Dec-22,16-Dec-22,0:00,0:00,0,1,Work,Closed
+10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,16-Dec-22,16-Dec-22,0:00,0:00,0,1,Work,Closed
+10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,16-Dec-22,16-Dec-22,0:00,0:00,0,1,Work,Closed
+10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,16-Dec-22,16-Dec-22,0:00,0:00,0,1,Work,Closed
+10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,16-Dec-22,16-Dec-22,0:00,0:00,0,1,Work,Closed
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,16-Dec-22,16-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,16-Dec-22,16-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,16-Dec-22,16-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -1925,11 +1925,11 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,16-Dec-22,16-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,16-Dec-22,16-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10001,Crisostomo,Jose,#N/A,#N/A,#N/A,19-Dec-22,19-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
-10002,Mata,Christian,#N/A,#N/A,#N/A,19-Dec-22,19-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,19-Dec-22,19-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,19-Dec-22,19-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,19-Dec-22,19-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,19-Dec-22,19-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
+10002,Mata,Christian,#N/A,#N/A,#N/A,19-Dec-22,19-Dec-22,0:00,0:00,0,1,Work,Closed
+10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,19-Dec-22,19-Dec-22,0:00,0:00,0,1,Work,Closed
+10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,19-Dec-22,19-Dec-22,0:00,0:00,0,1,Work,Closed
+10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,19-Dec-22,19-Dec-22,0:00,0:00,0,1,Work,Closed
+10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,19-Dec-22,19-Dec-22,0:00,0:00,0,1,Work,Closed
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,19-Dec-22,19-Dec-22,8:27,17:00,7.55,1,Work,Closed-Late
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,19-Dec-22,19-Dec-22,8:01,17:00,7.98,1,Work,Closed-On Time
 10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,19-Dec-22,19-Dec-22,8:05,17:00,7.92,1,Work,Closed-On Time
@@ -1950,11 +1950,11 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,19-Dec-22,19-Dec-22,8:21,17:00,7.65,1,Work,Closed-Late
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,19-Dec-22,19-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10001,Crisostomo,Jose,#N/A,#N/A,#N/A,20-Dec-22,20-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
-10002,Mata,Christian,#N/A,#N/A,#N/A,20-Dec-22,20-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,20-Dec-22,20-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,20-Dec-22,20-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,20-Dec-22,20-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,20-Dec-22,20-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
+10002,Mata,Christian,#N/A,#N/A,#N/A,20-Dec-22,20-Dec-22,0:00,0:00,0,1,Work,Closed
+10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,20-Dec-22,20-Dec-22,0:00,0:00,0,1,Work,Closed
+10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,20-Dec-22,20-Dec-22,0:00,0:00,0,1,Work,Closed
+10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,20-Dec-22,20-Dec-22,0:00,0:00,0,1,Work,Closed
+10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,20-Dec-22,20-Dec-22,0:00,0:00,0,1,Work,Closed
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,20-Dec-22,20-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,20-Dec-22,20-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,20-Dec-22,20-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -1975,11 +1975,11 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,20-Dec-22,20-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,20-Dec-22,20-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10001,Crisostomo,Jose,#N/A,#N/A,#N/A,21-Dec-22,21-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
-10002,Mata,Christian,#N/A,#N/A,#N/A,21-Dec-22,21-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,21-Dec-22,21-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,21-Dec-22,21-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,21-Dec-22,21-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,21-Dec-22,21-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
+10002,Mata,Christian,#N/A,#N/A,#N/A,21-Dec-22,21-Dec-22,0:00,0:00,0,1,Work,Closed
+10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,21-Dec-22,21-Dec-22,0:00,0:00,0,1,Work,Closed
+10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,21-Dec-22,21-Dec-22,0:00,0:00,0,1,Work,Closed
+10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,21-Dec-22,21-Dec-22,0:00,0:00,0,1,Work,Closed
+10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,21-Dec-22,21-Dec-22,0:00,0:00,0,1,Work,Closed
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,21-Dec-22,21-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,21-Dec-22,21-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,21-Dec-22,21-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -2000,11 +2000,11 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,21-Dec-22,21-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,21-Dec-22,21-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10001,Crisostomo,Jose,#N/A,#N/A,#N/A,22-Dec-22,22-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
-10002,Mata,Christian,#N/A,#N/A,#N/A,22-Dec-22,22-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,22-Dec-22,22-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,22-Dec-22,22-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,22-Dec-22,22-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,22-Dec-22,22-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
+10002,Mata,Christian,#N/A,#N/A,#N/A,22-Dec-22,22-Dec-22,0:00,0:00,0,1,Work,Closed
+10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,22-Dec-22,22-Dec-22,0:00,0:00,0,1,Work,Closed
+10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,22-Dec-22,22-Dec-22,0:00,0:00,0,1,Work,Closed
+10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,22-Dec-22,22-Dec-22,0:00,0:00,0,1,Work,Closed
+10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,22-Dec-22,22-Dec-22,0:00,0:00,0,1,Work,Closed
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,22-Dec-22,22-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,22-Dec-22,22-Dec-22,8:10,17:00,7.83,1,Work,Closed-On Time
 10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,22-Dec-22,22-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -2025,11 +2025,11 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,22-Dec-22,22-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,22-Dec-22,22-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10001,Crisostomo,Jose,#N/A,#N/A,#N/A,23-Dec-22,23-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
-10002,Mata,Christian,#N/A,#N/A,#N/A,23-Dec-22,23-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,23-Dec-22,23-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,23-Dec-22,23-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,23-Dec-22,23-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,23-Dec-22,23-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
+10002,Mata,Christian,#N/A,#N/A,#N/A,23-Dec-22,23-Dec-22,0:00,0:00,0,1,Work,Closed
+10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,23-Dec-22,23-Dec-22,0:00,0:00,0,1,Work,Closed
+10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,23-Dec-22,23-Dec-22,0:00,0:00,0,1,Work,Closed
+10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,23-Dec-22,23-Dec-22,0:00,0:00,0,1,Work,Closed
+10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,23-Dec-22,23-Dec-22,0:00,0:00,0,1,Work,Closed
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,23-Dec-22,23-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,23-Dec-22,23-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,23-Dec-22,23-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -2050,11 +2050,11 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,23-Dec-22,23-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,23-Dec-22,23-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10001,Crisostomo,Jose,#N/A,#N/A,#N/A,26-Dec-22,26-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
-10002,Mata,Christian,#N/A,#N/A,#N/A,26-Dec-22,26-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,26-Dec-22,26-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,26-Dec-22,26-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,26-Dec-22,26-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,26-Dec-22,26-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
+10002,Mata,Christian,#N/A,#N/A,#N/A,26-Dec-22,26-Dec-22,0:00,0:00,0,1,Work,Closed
+10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,26-Dec-22,26-Dec-22,0:00,0:00,0,1,Work,Closed
+10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,26-Dec-22,26-Dec-22,0:00,0:00,0,1,Work,Closed
+10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,26-Dec-22,26-Dec-22,0:00,0:00,0,1,Work,Closed
+10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,26-Dec-22,26-Dec-22,0:00,0:00,0,1,Work,Closed
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,26-Dec-22,26-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,26-Dec-22,26-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,26-Dec-22,26-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -2075,11 +2075,11 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,26-Dec-22,26-Dec-22,10:00,17:00,6,1,Work,Closed-Late
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,26-Dec-22,26-Dec-22,10:00,17:00,6,1,Work,Closed-Late
 10001,Crisostomo,Jose,#N/A,#N/A,#N/A,27-Dec-22,27-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
-10002,Mata,Christian,#N/A,#N/A,#N/A,27-Dec-22,27-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,27-Dec-22,27-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,27-Dec-22,27-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,27-Dec-22,27-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,27-Dec-22,27-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
+10002,Mata,Christian,#N/A,#N/A,#N/A,27-Dec-22,27-Dec-22,0:00,0:00,0,1,Work,Closed
+10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,27-Dec-22,27-Dec-22,0:00,0:00,0,1,Work,Closed
+10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,27-Dec-22,27-Dec-22,0:00,0:00,0,1,Work,Closed
+10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,27-Dec-22,27-Dec-22,0:00,0:00,0,1,Work,Closed
+10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,27-Dec-22,27-Dec-22,0:00,0:00,0,1,Work,Closed
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,27-Dec-22,27-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,27-Dec-22,27-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,27-Dec-22,27-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -2100,11 +2100,11 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,27-Dec-22,27-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,27-Dec-22,27-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10001,Crisostomo,Jose,#N/A,#N/A,#N/A,28-Dec-22,28-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
-10002,Mata,Christian,#N/A,#N/A,#N/A,28-Dec-22,28-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,28-Dec-22,28-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,28-Dec-22,28-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,28-Dec-22,28-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,28-Dec-22,28-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
+10002,Mata,Christian,#N/A,#N/A,#N/A,28-Dec-22,28-Dec-22,0:00,0:00,0,1,Work,Closed
+10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,28-Dec-22,28-Dec-22,0:00,0:00,0,1,Work,Closed
+10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,28-Dec-22,28-Dec-22,0:00,0:00,0,1,Work,Closed
+10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,28-Dec-22,28-Dec-22,0:00,0:00,0,1,Work,Closed
+10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,28-Dec-22,28-Dec-22,0:00,0:00,0,1,Work,Closed
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,28-Dec-22,28-Dec-22,8:27,17:00,7.55,1,Work,Closed-Late
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,28-Dec-22,28-Dec-22,8:01,17:00,7.98,1,Work,Closed-On Time
 10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,28-Dec-22,28-Dec-22,8:05,17:00,7.92,1,Work,Closed-On Time
@@ -2125,11 +2125,11 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,28-Dec-22,28-Dec-22,8:21,17:00,7.65,1,Work,Closed-Late
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,28-Dec-22,28-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10001,Crisostomo,Jose,#N/A,#N/A,#N/A,29-Dec-22,29-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
-10002,Mata,Christian,#N/A,#N/A,#N/A,29-Dec-22,29-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,29-Dec-22,29-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,29-Dec-22,29-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,29-Dec-22,29-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,29-Dec-22,29-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
+10002,Mata,Christian,#N/A,#N/A,#N/A,29-Dec-22,29-Dec-22,0:00,0:00,0,1,Work,Closed
+10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,29-Dec-22,29-Dec-22,0:00,0:00,0,1,Work,Closed
+10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,29-Dec-22,29-Dec-22,0:00,0:00,0,1,Work,Closed
+10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,29-Dec-22,29-Dec-22,0:00,0:00,0,1,Work,Closed
+10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,29-Dec-22,29-Dec-22,0:00,0:00,0,1,Work,Closed
 10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,29-Dec-22,29-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,29-Dec-22,29-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,29-Dec-22,29-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
@@ -2149,32 +2149,32 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 10023,Ramos,Carol,Probationary,Account Rank and File,De Leon Selena,29-Dec-22,29-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,29-Dec-22,29-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,29-Dec-22,29-Dec-22,8:00,17:00,8,1,Work,Closed-On Time
-10001,Crisostomo,Jose,#N/A,#N/A,#N/A,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10002,Mata,Christian,#N/A,#N/A,#N/A,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10013,Romualdez,Fredrick,Regular,Account Manager,Lim Antonio,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10014,Bautista,Mark,Regular,Account Rank and File,Mata Christian,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10019,Tolentino,Jacklyn,Probationary,Account Rank and File,De Leon Selena,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10020,Gutierrez,Percival,Probationary,Account Rank and File,De Leon Selena,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10021,Manalaysay,Garfield,Probationary,Account Rank and File,De Leon Selena,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10022,Villegas,Lizeth,Probationary,Account Rank and File,De Leon Selena,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
-10023,Ramos,Carol,Probationary,Account Rank and File,De Leon Selena,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
+10001,Crisostomo,Jose,#N/A,#N/A,#N/A,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10002,Mata,Christian,#N/A,#N/A,#N/A,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10003,San Jose,Brad,Regular,HR Team Leader,Villanueva Andrea Mae,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10004,Salcedo,Anthony,Regular,Payroll Manager,Alvaro Roderick,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10005,Romualdez,Alice,Regular,HR Rank and File,San Jose Brad,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10006,Atienza,Rosie,Regular,HR Rank and File,San Jose Brad,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10007,Farala,Martha,Regular,Payroll Rank and File,Salcedo Anthony,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10008,Martinez,Leila,Regular,Payroll Rank and File,Salcedo Anthony,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10009,San Jose,Allison,Regular,Account Rank and File,Mata Christian,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10010,Rosario,Cydney,Regular,Account Rank and File,Mata Christian,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10011,Lopez TEST,Josie,Regular,Payroll Team Leader,Salcedo Anthony,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10012,De Leon,Selena,Regular,Account Team Leader,Romualdez Fredrick,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10013,Romualdez,Fredrick,Regular,Account Manager,Lim Antonio,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10014,Bautista,Mark,Regular,Account Rank and File,Mata Christian,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10015,Lazaro,Darlene,Probationary,Account Rank and File,Mata Christian,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10016,Delos Santos,Kolby,Probationary,Account Rank and File,Mata Christian,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10017,Santos,Vella,Probationary,Account Rank and File,Mata Christian,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10018,Del Rosario,Tomas,Probationary,Account Rank and File,Mata Christian,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10019,Tolentino,Jacklyn,Probationary,Account Rank and File,De Leon Selena,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10020,Gutierrez,Percival,Probationary,Account Rank and File,De Leon Selena,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10021,Manalaysay,Garfield,Probationary,Account Rank and File,De Leon Selena,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10022,Villegas,Lizeth,Probationary,Account Rank and File,De Leon Selena,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
+10023,Ramos,Carol,Probationary,Account Rank and File,De Leon Selena,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,30-Dec-22,30-Dec-22,0:00,0:00,0,1,SL Request,Pending
 10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,30-Dec-22,30-Dec-22,0:00,0:00,0,1,VL Request,Pending
-10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed-On Time
+10024,Maceda,Emelia,Probationary,Account Rank and File,De Leon Selena,30-Dec-22,30-Dec-22,0:00,0:00,0,1,Work,Closed
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,30-Dec-22,30-Dec-22,0:00,0:00,0,2,SL Request,Approved
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,1-Dec-22,2-Dec-22,0:00,0:00,0,2,SL Request,Approved
 10025,Aguilar,Delia,Probationary,Account Rank and File,De Leon Selena,30-Dec-22,30-Dec-22,0:00,0:00,0,2,SL Request,Approved

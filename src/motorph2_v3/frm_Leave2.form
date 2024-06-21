@@ -130,7 +130,7 @@
                               <Component id="jcal_DateFrom" alignment="0" max="32767" attributes="0"/>
                               <Component id="jcal_DateTo" alignment="0" max="32767" attributes="0"/>
                           </Group>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="359" max="32767" attributes="0"/>
                           <Component id="jLabel4" min="-2" pref="383" max="-2" attributes="0"/>
                       </Group>
                   </Group>
