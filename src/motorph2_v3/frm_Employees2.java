@@ -1,17 +1,27 @@
 
 package motorph2_v3;
 
+import java.awt.Font;
+import java.awt.FontMetrics;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.print.PageFormat;
+import java.awt.print.Printable;
+import java.awt.print.PrinterException;
+import java.awt.print.PrinterJob;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.MessageFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import javax.swing.JOptionPane;
+import javax.swing.text.JTextComponent;
 
 
 
@@ -640,6 +650,11 @@ public class frm_Employees2 extends javax.swing.JFrame {
         btn_PrintPay.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btn_PrintPay.setForeground(new java.awt.Color(255, 255, 255));
         btn_PrintPay.setText("PRINT");
+        btn_PrintPay.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_PrintPayActionPerformed(evt);
+            }
+        });
 
         txt_EETax.setEditable(false);
 
@@ -1692,6 +1707,83 @@ public class frm_Employees2 extends javax.swing.JFrame {
     private void txt_PagibigActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_PagibigActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txt_PagibigActionPerformed
+
+    private void btn_PrintPayActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_PrintPayActionPerformed
+    PrinterJob printerJob = PrinterJob.getPrinterJob();
+    MessageFormat header = new MessageFormat("Printing in progress");
+    MessageFormat footer = new MessageFormat("Page {0, number, integer}");
+
+    StringBuilder sb = new StringBuilder();
+    sb.append(" ").append("\n");
+    sb.append("MOTORPH PAYSLIP").append("\n");
+    sb.append(" ").append("\n");
+    
+    
+    Date dateFrom = jcal_DateFrom.getDate();
+    Date dateTo = jcal_DateTo.getDate();
+    SimpleDateFormat dateFormat = new SimpleDateFormat("dd/mm/yy");
+    String formattedDateFrom = dateFormat.format(dateFrom);
+    sb.append("Date From: ").append(formattedDateFrom).append("\n");
+    String formattedDateTo = dateFormat.format(dateTo);
+    sb.append("Date To: ").append(formattedDateTo).append("\n");
+    
+    sb.append(" ").append("\n");
+    sb.append("Employee Number: ").append(txt_EmpNo.getText()).append("\n");
+    sb.append("Last Name: ").append(txt_Lastname.getText()).append("\n");
+    sb.append("First Name: ").append(txt_Firstname.getText()).append("\n");
+    
+    
+    sb.append(" ").append("\n");
+    sb.append("Payable Hours: ").append(txt_PayableHrs.getText()).append("\n");
+    sb.append("Actual Work Hours: ").append(txt_ActualWorkHrs.getText()).append("\n");
+    sb.append("Tardiness (Hrs): ").append(txt_TardinessHrs.getText()).append("\n");
+    
+    sb.append(" ").append("\n");
+    sb.append("EARNINGS").append("\n");
+    sb.append("Monthly Gross: ").append(txt_MonthlyGross.getText()).append("\n");
+    sb.append("Monthly Allowance: ").append(txt_MonthlyAllow.getText()).append("\n");
+    sb.append("TOTAL EARNINGS: ").append(txt_Earnings.getText()).append("\n");
+
+    sb.append(" ").append("\n");
+    
+    
+    printerJob.setPrintable(new Printable() {
+        public int print(Graphics graphics, PageFormat pageFormat, int pageIndex) throws PrinterException {
+            if (pageIndex > 0) {
+                return Printable.NO_SUCH_PAGE;
+            }
+
+            Graphics2D g2d = (Graphics2D) graphics;
+            g2d.translate(pageFormat.getImageableX(), pageFormat.getImageableY());
+            
+            
+
+            Font font = g2d.getFont();
+            g2d.setFont(new Font(font.getName(), Font.PLAIN, 12));
+            FontMetrics fm = g2d.getFontMetrics();
+
+            String[] lines = sb.toString().split("\n");
+            int y = fm.getAscent();
+            for (String line : lines) {
+                g2d.drawString(line, 100, y);
+                y += fm.getHeight();
+            }
+
+            return Printable.PAGE_EXISTS;
+        }
+    });
+
+    boolean doPrint = printerJob.printDialog();
+    if (doPrint) {
+        try {
+            printerJob.print();
+        } catch (PrinterException e) {
+            System.err.println("Printing failed: " + e.getMessage());
+        }
+    }
+
+        
+    }//GEN-LAST:event_btn_PrintPayActionPerformed
 
     /**
      * @param args the command line arguments
