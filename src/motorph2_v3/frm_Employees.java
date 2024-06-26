@@ -380,7 +380,20 @@ public class frm_Employees extends javax.swing.JFrame {
     }//GEN-LAST:event_tbl_EmpMouseClicked
 
     private void btn_PrintSummaryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_PrintSummaryActionPerformed
-    MessageFormat header = new MessageFormat("Printing Employee Summary");
+
+        MessageFormat header = new MessageFormat("MotorPH Employee List");
+        MessageFormat footer = new MessageFormat("Page {0, number, integer}");
+        
+        try
+        {
+            tbl_Emp.print(JTable.PrintMode.NORMAL,header,footer);
+        }
+        catch (java.awt.print.PrinterException e)
+        {
+            System.err.format("No Printer found", e.getMessage());
+        }   
+        
+        /*    MessageFormat header = new MessageFormat("Printing Employee Summary");
     MessageFormat footer = new MessageFormat("Page {0,number,integer}");
 
     try {
@@ -452,7 +465,7 @@ public class frm_Employees extends javax.swing.JFrame {
         System.err.format("Error occurred during printing: %s%n", e.getMessage());
     }
 
-        
+        */
     }//GEN-LAST:event_btn_PrintSummaryActionPerformed
 
     /**

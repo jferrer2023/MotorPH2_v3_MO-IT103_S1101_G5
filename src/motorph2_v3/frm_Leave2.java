@@ -1,5 +1,7 @@
 package motorph2_v3;
 
+import java.awt.event.FocusAdapter;
+import java.awt.event.FocusEvent;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
@@ -51,6 +53,10 @@ public class frm_Leave2 extends javax.swing.JFrame {
 
     originalEmpNo = empNo;
     isEditMode = true;
+    
+    // Calculate initial duration and hours worked --- JOYCE 
+        updateDuration();
+        calculateHoursWorked();
        
     }
 
@@ -58,15 +64,66 @@ public class frm_Leave2 extends javax.swing.JFrame {
         initComponents();
     }
     
+    
+    // JOYCE START
+    private void addListeners() {
+        // Add listeners to calculate hours worked
+        txt_TimeIn.addFocusListener(new FocusAdapter() {
+            public void focusLost(FocusEvent evt) {
+                calculateHoursWorked();
+            }
+        });
+        txt_TimeOut.addFocusListener(new FocusAdapter() {
+            public void focusLost(FocusEvent evt) {
+                calculateHoursWorked();
+            }
+        });
+
+        // Add listeners to calculate duration of days
+        jcal_DateFrom.getDateEditor().addPropertyChangeListener(evt -> {
+            if ("date".equals(evt.getPropertyName())) {
+                updateDuration();
+            }
+        });
+        jcal_DateTo.getDateEditor().addPropertyChangeListener(evt -> {
+            if ("date".equals(evt.getPropertyName())) {
+                updateDuration();
+            }
+        });
+    }
+
+    private void calculateHoursWorked() {
+                SimpleDateFormat timeFormat = new SimpleDateFormat("HH:mm");
+        try {
+            String timeInStr = txt_TimeIn.getText();
+            String timeOutStr = txt_TimeOut.getText();
+            if (timeInStr.isEmpty() || timeOutStr.isEmpty()) {
+                return;
+            }
+            Date timeIn = timeFormat.parse(timeInStr);
+            Date timeOut = timeFormat.parse(timeOutStr);
+            long difference = timeOut.getTime() - timeIn.getTime();
+            double hoursWorked = difference / (1000.0 * 60 * 60) -1;
+            txt_HoursWorked.setText(String.format("%.2f", hoursWorked));
+        } catch (ParseException ex) {
+            ex.printStackTrace();
+            JOptionPane.showMessageDialog(this, "Error parsing time.", "Time Parsing Error", JOptionPane.ERROR_MESSAGE);
+        }
+    } 
+
     private void updateDuration() {
         Date fromDate = jcal_DateFrom.getDate();
         Date toDate = jcal_DateTo.getDate();
-
+        if (fromDate == null || toDate == null) {
+            return;
+        }
         long difference = toDate.getTime() - fromDate.getTime();
-        long daysDifference = difference / (1000 * 60 * 60 * 24);
-
+        long daysDifference = difference / (1000 * 60 * 60 * 24) + 1;
         txt_Duration.setText(String.valueOf(daysDifference));
     }
+    // JOYCE END 
+    
+    
     
 private void updateInAttendanceCSV(String empNo, String lastname, String firstname, String status, String position, String supervisor, String dateFrom, String dateTo, String timeIn, String timeOut, String hoursWorked, String duration, String attendanceType, String attendanceStatus) {
     List<String> attendanceLines = new ArrayList<>();
@@ -108,6 +165,9 @@ private void updateInAttendanceCSV(String empNo, String lastname, String firstna
     } catch (IOException ex) {
         JOptionPane.showMessageDialog(this, "Error updating attendance data: " + ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
     }
+    
+    updateDuration();
+    calculateHoursWorked();
 }
 
 private void writeToAttendanceCSV(String empNo, String lastname, String firstname, String status, String position, String supervisor, String dateFrom, String dateTo, String timeIn, String timeOut, String hoursWorked, String duration, String attendanceType, String attendanceStatus) {
@@ -150,6 +210,9 @@ private void writeToAttendanceCSV(String empNo, String lastname, String firstnam
     } catch (IOException ex) {
         JOptionPane.showMessageDialog(this, "Error adding attendance data: " + ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
     }
+    
+    updateDuration();
+    calculateHoursWorked();
 }
 
     
@@ -704,7 +767,11 @@ private void writeToAttendanceCSV(String empNo, String lastname, String firstnam
     }//GEN-LAST:event_btn_EditLeaveActionPerformed
 
     private void btn_SubmitLeaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_SubmitLeaveActionPerformed
-      if (txt_Lastname.getText().isEmpty() || 
+    
+    updateDuration();
+    calculateHoursWorked();
+        
+    if (txt_Lastname.getText().isEmpty() || 
     txt_Firstname.getText().isEmpty() ||
     txt_Status.getText().isEmpty() ||
     txt_Position.getText().isEmpty() ||
@@ -831,6 +898,8 @@ private void writeToAttendanceCSV(String empNo, String lastname, String firstnam
         txt_TimeOut.setEditable(false);
         txt_Duration.setEditable(false);
         txt_HoursWorked.setEditable(false);
+        
+        
     }
     }//GEN-LAST:event_btn_SubmitLeaveActionPerformed
  }
