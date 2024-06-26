@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import java.util.ListIterator;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
@@ -834,10 +835,47 @@ private void writeToAttendanceCSV(String empNo, String lastname, String firstnam
     }//GEN-LAST:event_btn_SubmitLeaveActionPerformed
  }
     private void btn_DelLeaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_DelLeaveActionPerformed
-        
-        
-        
-        
+      int response = JOptionPane.showConfirmDialog(this, "Are you sure you want to delete this record?", "Confirm Delete", JOptionPane.YES_NO_OPTION);
+    if (response == JOptionPane.YES_OPTION) {
+        String empNo = txt_EmpNo.getText();
+        String filePath = "C:\\Users\\IT-Spare\\Documents\\NetBeansProjects\\MotorPH2_v3\\src\\motorph2_v3\\MotorPH Attendance Details.csv";
+
+        List<String> lines = new ArrayList<>();
+        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                lines.add(line);
+            }
+        } catch (IOException ex) {
+            JOptionPane.showMessageDialog(this, "Error reading employee data: " + ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+
+        boolean found = false;
+        for (ListIterator<String> it = lines.listIterator(); it.hasNext();) {
+            String[] parts = it.next().split(",");
+            if (parts.length >= 10 && parts[0].equals(empNo)) {
+                it.remove();
+                found = true;
+                break;
+            }
+        }
+
+        if (found) {
+            try (BufferedWriter bw = new BufferedWriter(new FileWriter(filePath, false))) {
+                for (String line : lines) {
+                    bw.write(line);
+                    bw.newLine();
+                }
+                JOptionPane.showMessageDialog(this, "Employee data deleted successfully.");
+            } catch (IOException ex) {
+                JOptionPane.showMessageDialog(this, "Error deleting employee data: " + ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+            }
+        } else {
+            JOptionPane.showMessageDialog(this, "Employee not found.", "Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+
     }//GEN-LAST:event_btn_DelLeaveActionPerformed
 
     private void btn_ApproveLeaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_ApproveLeaveActionPerformed

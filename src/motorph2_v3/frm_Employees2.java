@@ -1535,7 +1535,16 @@ public class frm_Employees2 extends javax.swing.JFrame {
     }//GEN-LAST:event_txt_GrossSemiActionPerformed
 
     private void btn_ComputeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_ComputeActionPerformed
-   
+    
+    if (jcal_DateFrom.getDate() == null) {
+        // Show error message for Date From
+        JOptionPane.showMessageDialog(null, "Please fill out Date From", "Error", JOptionPane.ERROR_MESSAGE);
+    } else if (jcal_DateTo.getDate() == null) {
+        // Show error message for Date To
+        JOptionPane.showMessageDialog(null, "Please fill out Date To", "Error", JOptionPane.ERROR_MESSAGE);
+    }
+
+  
     
     // Parse input values
     double monthlyGross = Double.parseDouble(txt_MonthlyGross.getText());
@@ -1702,6 +1711,7 @@ public class frm_Employees2 extends javax.swing.JFrame {
     txt_ERDeduct.setText(String.format("%.2f", totalERDeduction));
     txt_Netpay.setText(String.format("%.2f", netPay ));
     
+    
     }//GEN-LAST:event_btn_ComputeActionPerformed
 
     private void txt_PagibigActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_PagibigActionPerformed
@@ -1721,7 +1731,7 @@ public class frm_Employees2 extends javax.swing.JFrame {
     
     Date dateFrom = jcal_DateFrom.getDate();
     Date dateTo = jcal_DateTo.getDate();
-    SimpleDateFormat dateFormat = new SimpleDateFormat("dd/mm/yy");
+    SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MMM-yy");
     String formattedDateFrom = dateFormat.format(dateFrom);
     sb.append("Date From: ").append(formattedDateFrom).append("\n");
     String formattedDateTo = dateFormat.format(dateTo);
@@ -1743,9 +1753,16 @@ public class frm_Employees2 extends javax.swing.JFrame {
     sb.append("Monthly Gross: ").append(txt_MonthlyGross.getText()).append("\n");
     sb.append("Monthly Allowance: ").append(txt_MonthlyAllow.getText()).append("\n");
     sb.append("TOTAL EARNINGS: ").append(txt_Earnings.getText()).append("\n");
+    
+    sb.append(" ").append("\n");
+    sb.append("DEDUCTIONS").append("\n");
+    sb.append("SSS: ").append(txt_EESSS.getText()).append("\n");
+    sb.append("Philhealth: ").append(txt_EEPhilhealth.getText()).append("\n");
+    sb.append("Tardiness: ").append(txt_TardinessAmount.getText()).append("\n");
+    sb.append("TOTAL DEDUCTIONS: ").append(txt_EEDeduct.getText()).append("\n");
 
     sb.append(" ").append("\n");
-    
+    sb.append("NET PAY: ").append(txt_Netpay.getText()).append("\n");
     
     printerJob.setPrintable(new Printable() {
         public int print(Graphics graphics, PageFormat pageFormat, int pageIndex) throws PrinterException {

@@ -2190,8 +2190,5 @@ Employee #,Last Name,First Name,Status,Position,Immediate Supervisor,Date From,D
 11111,TESTPAY1,TESTPAY1,Regular,Customer Service and Relations,Test,11-Jul-22,12-Jul-22,8:00,17:00,16,2,SL Request,Approved
 11111,TESTPAY1,TESTPAY1,Regular,Customer Service and Relations,Test,12-Jul-22,14-Jul-22,8:00,17:00,16,2,VL Request,Approved
 11111,TESTPAY1,TESTPAY1,Regular,Customer Service and Relations,Test,20-Jul-22,20-Jul-22,8:00,17:00,8,1,Unpaid Leave,Approved
-11112,TESTPAY2,TESTPAY2,Regular,Customer Service and Relations,Test,10-Jul-22,10-Jul-22,8:10,17:00,8,1,Work,Closed-On Time
-11112,TESTPAY2,TESTPAY2,Regular,Customer Service and Relations,Test,10-Jul-22,10-Jul-22,8:10,17:00,8,1,Work,Closed-On Time
-11112,TESTPAY2,TESTPAY2,Regular,Customer Service and Relations,Test,1-Jul-22,1-Jul-22,8:10,17:00,8,1,Work,Closed-On Time
-11112,TESTPAY2,TESTPAY2,Regular,Customer Service and Relations,Test,2-Jul-22,2-Jul-22,8:27,17:00,7.55,1,Work,Closed-Late
-11112,TESTPAY2,TESTPAY2,Regular,Customer Service and Relations,Test,3-Jul-22,3-Jul-22,8:10,17:00,8,1,Work,Closed-On Time
+11112,TESTPAY2,TESTPAY2,Regular,Customer Service and Relations,Test,07-Sep-2024,07-Sep-2024,00:00,00:00,8.0,1.0,VL Request,Rejected
+10000,TESTPAY3,TESTPAY3,TESTPAY3,TESTPAY3,TESTPAY3,01-Jan-1900,01-Jan-1900,00:00,00:00,0.0,0.0,Select Attendance Type,Select Attendance Status
