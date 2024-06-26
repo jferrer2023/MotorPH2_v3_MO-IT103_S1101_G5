@@ -1,17 +1,27 @@
 
 package motorph2_v3;
 
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.print.PageFormat;
+import java.awt.print.Paper;
+import java.awt.print.Printable;
+import java.awt.print.PrinterException;
+import java.awt.print.PrinterJob;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.text.MessageFormat;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
+import javax.swing.JTable;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableColumn;
 
 
 public class frm_Employees extends javax.swing.JFrame {
@@ -58,6 +68,7 @@ public class frm_Employees extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         tbl_Emp = new javax.swing.JTable();
         btn_ViewEmp = new javax.swing.JButton();
+        btn_PrintSummary = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Employee Details");
@@ -188,6 +199,16 @@ public class frm_Employees extends javax.swing.JFrame {
             }
         });
 
+        btn_PrintSummary.setBackground(new java.awt.Color(0, 0, 153));
+        btn_PrintSummary.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btn_PrintSummary.setForeground(new java.awt.Color(255, 255, 255));
+        btn_PrintSummary.setText("PRINT SUMMARY");
+        btn_PrintSummary.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_PrintSummaryActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -206,6 +227,8 @@ public class frm_Employees extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(btn_ViewEmp, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(btn_PrintSummary, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 410, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -219,7 +242,9 @@ public class frm_Employees extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn_ViewEmp, javax.swing.GroupLayout.Alignment.TRAILING))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(btn_ViewEmp)
+                        .addComponent(btn_PrintSummary)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -354,6 +379,82 @@ public class frm_Employees extends javax.swing.JFrame {
         
     }//GEN-LAST:event_tbl_EmpMouseClicked
 
+    private void btn_PrintSummaryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_PrintSummaryActionPerformed
+    MessageFormat header = new MessageFormat("Printing Employee Summary");
+    MessageFormat footer = new MessageFormat("Page {0,number,integer}");
+
+    try {
+        // Set print attributes
+        PrinterJob printerJob = PrinterJob.getPrinterJob();
+        PageFormat pageFormat = printerJob.defaultPage();
+        pageFormat.setOrientation(PageFormat.LANDSCAPE);
+
+        // Set page margins
+        double margin = 0.5 * 72; // 0.5 inch margin (convert to points)
+        Paper paper = pageFormat.getPaper();
+        paper.setImageableArea(margin, margin, paper.getWidth() - 2 * margin, paper.getHeight() - 2 * margin);
+        pageFormat.setPaper(paper);
+
+        // Create a custom Printable object to print selected columns
+        Printable printable = new Printable() {
+            @Override
+            public int print(Graphics graphics, PageFormat pageFormat, int pageIndex) throws PrinterException {
+                if (pageIndex > 0) {
+                    return Printable.NO_SUCH_PAGE;
+                }
+
+                Graphics2D g2 = (Graphics2D) graphics;
+                g2.translate(pageFormat.getImageableX(), pageFormat.getImageableY());
+
+                // Adjust width for columns 0-12
+                double columnWidth = pageFormat.getImageableWidth() / 13.0; // Divide equally among 13 columns
+                double x = 0;
+                int y = 40; // Start y-coordinate for data rows
+
+                // Print header
+                g2.drawString(header.format(new Object[] { pageIndex + 1 }), (int) x, (int) pageFormat.getImageableY() + 20);
+
+                // Print column headers for columns 0 to 12
+                for (int col = 0; col <= 12; col++) {
+                    TableColumn tableColumn = tbl_Emp.getColumnModel().getColumn(col);
+                    int width = (int) Math.round(columnWidth); // Round width to int
+                    g2.drawString(tableColumn.getHeaderValue().toString(), (int) x + 5, y);
+                    x += width;
+                }
+                
+                // Reset x for data rows
+                x = 0;
+                
+                // Print data rows for columns 0 to 12
+                for (int row = 0; row < tbl_Emp.getRowCount(); row++) {
+                    y += 20; // Move to the next row
+                    x = 0; // Reset x for each row
+                    for (int col = 0; col <= 12; col++) {
+                        String value = tbl_Emp.getValueAt(row, col).toString();
+                        g2.drawString(value, (int) x + 5, y);
+                        x += columnWidth;
+                    }
+                }
+
+                // Print footer
+                g2.drawString(footer.format(new Object[] { pageIndex + 1 }), (int) x, (int) (pageFormat.getImageableY() + pageFormat.getImageableHeight() - 20));
+
+                return Printable.PAGE_EXISTS;
+            }
+        };
+
+        // Print with custom page format and printable content
+        printerJob.setPrintable(printable, pageFormat);
+        if (printerJob.printDialog()) {
+            printerJob.print();
+        }
+    } catch (java.awt.print.PrinterException e) {
+        System.err.format("Error occurred during printing: %s%n", e.getMessage());
+    }
+
+        
+    }//GEN-LAST:event_btn_PrintSummaryActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -399,6 +500,7 @@ public class frm_Employees extends javax.swing.JFrame {
     private javax.swing.JLabel btn_Home;
     private javax.swing.JLabel btn_Logout;
     private javax.swing.JLabel btn_Payroll;
+    private javax.swing.JButton btn_PrintSummary;
     private javax.swing.JLabel btn_Salary;
     private javax.swing.JButton btn_ViewEmp;
     private javax.swing.JLabel jLabel2;
