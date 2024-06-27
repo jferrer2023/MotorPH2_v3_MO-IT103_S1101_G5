@@ -1538,10 +1538,10 @@ public class frm_Employees2 extends javax.swing.JFrame {
     
     if (jcal_DateFrom.getDate() == null) {
         // Show error message for Date From
-        JOptionPane.showMessageDialog(null, "Please fill out Date From", "Error", JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Please fill out Date From and Date To", "Error", JOptionPane.ERROR_MESSAGE);
     } else if (jcal_DateTo.getDate() == null) {
         // Show error message for Date To
-        JOptionPane.showMessageDialog(null, "Please fill out Date To", "Error", JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Please fill out Date From and Date To", "Error", JOptionPane.ERROR_MESSAGE);
     }
 
   
